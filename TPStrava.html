@@ -14,10 +14,11 @@
 
     :root {
       --orange: #FC4C02;
-      --ink: #14181C;
-      --mute: #8A8F98;
-      --line: #E7E4DD;
-      --background: #ffffff;
+      --background: #242424;
+      --card: #2D2D2D;
+      --ink: #F5F5F5;
+      --mute: #A5A5A5;
+      --line: #444444;
     }
 
     * {
@@ -42,7 +43,7 @@
       font-family: 'Space Grotesk', sans-serif;
       font-size: 48px;
       margin-bottom: 8px;
-      color: #FC4C02;
+      color: var(--orange);
     }
 
     h2 {
@@ -50,17 +51,19 @@
       font-size: 30px;
       margin-top: 70px;
       margin-bottom: 15px;
+      color: #FFFFFF;
     }
 
     .subtitulo {
       font-size: 20px;
-      color: #666;
+      color: #C7C7C7;
       margin-top: 0;
     }
 
     .introduccion {
       max-width: 750px;
       margin-bottom: 50px;
+      color: #D6D6D6;
     }
 
 
@@ -71,7 +74,7 @@
     .kpis {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      background: #fff;
+      background: var(--card);
       border: 1px solid var(--line);
       border-radius: 10px;
       overflow: hidden;
@@ -96,11 +99,12 @@
     }
 
     .kpi-label {
-      font-size: 13px;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      font-weight: 500;
-      color: var(--mute);
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      letter-spacing: normal;
+      text-transform: none;
+      font-weight: 600;
+      color: #BDBDBD;
       margin-bottom: 14px;
     }
 
@@ -108,7 +112,7 @@
       font-family: 'Inter', sans-serif;
       font-size: 48px;
       font-weight: 700;
-      color: var(--ink);
+      color: #FFFFFF;
       display: flex;
       align-items: baseline;
       gap: 10px;
@@ -142,18 +146,28 @@
     footer {
       margin-top: 80px;
       padding-top: 20px;
-      border-top: 1px solid #ccc;
-      color: #666;
+      border-top: 1px solid var(--line);
+      color: var(--mute);
       font-size: 14px;
     }
 
 
-    /* Para celular */
+    /* -------------------------
+       CELULAR
+       ------------------------- */
 
     @media (max-width: 650px) {
 
       h1 {
         font-size: 38px;
+      }
+
+      h2 {
+        font-size: 25px;
+      }
+
+      .pagina {
+        padding: 35px 18px 60px;
       }
 
       .kpis {
@@ -207,7 +221,7 @@
 
     <!-- VISUALIZACIÓN 1 -->
 
-    <h2>Título de la primera visualización</h2>
+    <h2>Weekly Running Distance (km)</h2>
 
     <div class="visualizacion">
 

@@ -61,6 +61,134 @@
     el ritmo y otras variables de entrenamiento.
   </p>
 
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KPIs — Strava</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --orange:#FC4C02;
+    --ink:#14181C;
+    --bg:#14181C;
+    --mute:#8A8F98;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    font-family:'Inter',sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    padding:24px;
+  }
+  .kpis{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    background:#fff;
+    border:1px solid #E7E4DD;
+    border-radius:10px;
+    max-width:600px;
+    width:100%;
+    overflow:hidden;
+  }
+  .kpi{
+    padding:28px 32px;
+    border-right:1px solid #E7E4DD;
+    border-bottom:1px solid #E7E4DD;
+  }
+  .kpi:nth-child(2n){ border-right:none; }
+  .kpi:nth-child(3), .kpi:nth-child(4){ border-bottom:none; }
+  .kpi-label{
+    font-size:12px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    font-weight:500;
+    color:var(--mute);
+    margin-bottom:10px;
+  }
+  .kpi-value{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:40px;
+    font-weight:700;
+    color:var(--ink);
+    display:flex;
+    align-items:baseline;
+    gap:8px;
+  }
+  .kpi-unit{
+    font-size:16px;
+    font-weight:500;
+    color:var(--mute);
+  }
+  .kpi-delta{
+    font-size:15px;
+    font-weight:600;
+    color:var(--orange);
+    margin-top:6px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="kpis" id="kpis"></div>
+
+<script>
+const DATA = [
+  { fecha: "2025-12-31", distancia: 2.82, duracion: 25.9, ritmo: 9.17 },
+  { fecha: "2026-01-02", distancia: 3.58, duracion: 24.5, ritmo: 6.82 },
+  { fecha: "2026-01-04", distancia: 3.62, duracion: 21.9, ritmo: 6.05 },
+  { fecha: "2026-07-26", distancia: 5.02, duracion: 32.2, ritmo: 6.4 },
+  { fecha: "2026-07-28", distancia: 3.05, duracion: 18.5, ritmo: 6.07 },
+  { fecha: "2026-07-30", distancia: 4.32, duracion: 29.3, ritmo: 6.78 },
+  { fecha: "2026-08-01", distancia: 3.51, duracion: 21.8, ritmo: 6.19 },
+  { fecha: "2026-08-03", distancia: 5.01, duracion: 30.9, ritmo: 6.16 },
+  { fecha: "2026-08-05", distancia: 4.52, duracion: 27.8, ritmo: 6.15 },
+  { fecha: "2026-08-07", distancia: 4.01, duracion: 24.3, ritmo: 6.06 },
+  { fecha: "2026-08-08", distancia: 5.13, duracion: 32.6, ritmo: 6.34 },
+  { fecha: "2026-08-09", distancia: 3.26, duracion: 19.4, ritmo: 5.94 },
+  { fecha: "2026-08-14", distancia: 6.51, duracion: 41.4, ritmo: 6.36 },
+  { fecha: "2026-08-16", distancia: 7.51, duracion: 47.6, ritmo: 6.33 },
+];
+
+function fmtPace(dec){
+  const m = Math.floor(dec);
+  const s = Math.round((dec - m) * 60);
+  return ${m}:${String(s).padStart(2,"0")};
+}
+
+const totalDist = DATA.reduce((a,d)=>a+d.distancia,0);
+const totalDur = DATA.reduce((a,d)=>a+d.duracion,0);
+const first3 = DATA.slice(0,3), last3 = DATA.slice(-3);
+const avgFirst = first3.reduce((a,d)=>a+d.ritmo,0)/first3.length;
+const avgLast = last3.reduce((a,d)=>a+d.ritmo,0)/last3.length;
+const mejora = avgFirst - avgLast;
+
+const kpis = [
+  { label:"Distancia total", value: totalDist.toFixed(1), unit:"km" },
+  { label:"Tiempo total", value: Math.round(totalDur), unit:"min" },
+  { label:"Corridas", value: DATA.length, unit:"act." },
+  { label:"Mejora de ritmo", value: (mejora>0?"-":"+")+fmtPace(Math.abs(mejora)), unit:"min/km", delta:"primeras 3 vs. últimas 3" },
+];
+
+const container = document.getElementById("kpis");
+kpis.forEach(k=>{
+  const div = document.createElement("div");
+  div.className = "kpi";
+  div.innerHTML = `
+    <div class="kpi-label">${k.label}</div>
+    <div class="kpi-value">${k.value}<span class="kpi-unit">${k.unit}</span></div>
+    ${k.delta ? <div class="kpi-delta">${k.delta}</div> : ""}
+  `;
+  container.appendChild(div);
+});
+</script>
+</body>
+</html>
 
   <h2>Titulo de la primera visualización</h2>
 

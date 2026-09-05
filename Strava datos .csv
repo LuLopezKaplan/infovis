@@ -1,0 +1,20 @@
+﻿ID de la actividad,Fecha,Nombre de actividad,Tipo,Distancia (Km),Duración (min),Velocidad promedio (km/h),Ritmo promedio (min/km),Ritmo promedio decimal (min/km),Velocidad máxima (km/h),Ritmo máximo decimal (min/km)
+20013158895,9/2/2026,10km carrera larga,Carrera,10.02,73.95,9.13,6:34,6.57,11.52,5.21
+19954176177,8/29/2026,"Carrera fácil: 7,5 km",Carrera,7,43.55,9.66,6:13,6.21,11.23,5.34
+19953798165,8/28/2026,Repeticiones de 200,Carrera,2.58,22.32,9.13,6:34,6.57,12.82,4.68
+19855646191,8/22/2026,Carrera fácil: 8 km,Carrera,8.01,49.47,9.73,6:10,6.17,13.1,4.58
+19830304718,8/20/2026,Repeticiones: 1 km,Carrera,8.68,62.63,9.17,6:33,6.54,14.98,4.01
+19771833541,8/16/2026,"7,5km Carrera larga progresiva",Carrera,7.52,47.68,9.47,6:20,6.34,12.46,4.82
+19744150147,8/14/2026,"6,5km Carrera larga",Carrera,6.52,41.5,9.44,6:21,6.36,12.1,4.96
+19673417862,8/9/2026,"6,5km Carrera larga",Carrera,3.27,21.48,10.09,5:57,5.95,12.6,4.76
+19656650927,8/8/2026,Carrera progresiva,Carrera,5.14,34.78,9.46,6:21,6.34,12.17,4.93
+19646516806,8/7/2026,Carrera fácil: 4 km,Carrera,4.02,24.38,9.9,6:04,6.06,12.74,4.71
+19623606926,8/5/2026,"Carrera fácil: 4,5 km",Carrera,4.52,27.88,9.75,6:09,6.15,14.26,4.21
+19589039177,8/3/2026,5km Carrera larga,Carrera,5.01,30.93,9.74,6:10,6.16,11.52,5.21
+19561587455,8/1/2026,"Carrera fácil: 3,5 km",Carrera,3.51,21.83,9.69,6:12,6.19,12.74,4.71
+19536006268,7/30/2026,Variantes de 300 m,Carrera,4.32,29.65,8.86,6:46,6.77,16.34,3.67
+19507903508,7/28/2026,Carrera de noche,Carrera,3.05,18.5,9.89,6:04,6.07,13.79,4.35
+19474966485,7/26/2026,Carrera a la hora del almuerzo,Carrera,5.02,33.13,9.37,6:24,6.4,17.06,3.52
+16934832153,1/4/2026,Carrera de mañana,Carrera,3.62,28.8,9.93,6:03,6.04,14.47,4.15
+16912567530,1/2/2026,Carrera de mañana,Carrera,3.59,34.97,8.79,6:50,6.83,14.62,4.1
+16912084274,12/31/2025,Carrera nocturna,Carrera,2.82,26.17,6.54,9:10,9.17,15.91,3.77

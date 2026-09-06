@@ -8,6 +8,7 @@
   <title>Mi running en datos</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <style>
@@ -19,6 +20,7 @@
       --ink: #F5F5F5;
       --mute: #A5A5A5;
       --line: #444444;
+      --white: #FFFFFF;
     }
 
     * {
@@ -76,7 +78,7 @@
       grid-template-columns: 1fr 1fr;
       background: var(--card);
       border: 1px solid var(--line);
-      border-radius: 10px;
+      border-radius: 14px;
       overflow: hidden;
       margin-top: 45px;
       margin-bottom: 70px;
@@ -99,17 +101,13 @@
     }
 
     .kpi-label {
-      font-family: 'Inter', sans-serif;
       font-size: 16px;
-      letter-spacing: normal;
-      text-transform: none;
       font-weight: 600;
       color: #BDBDBD;
       margin-bottom: 14px;
     }
 
     .kpi-value {
-      font-family: 'Inter', sans-serif;
       font-size: 48px;
       font-weight: 700;
       color: #FFFFFF;
@@ -119,7 +117,6 @@
     }
 
     .kpi-unit {
-      font-family: 'Inter', sans-serif;
       font-size: 17px;
       font-weight: 500;
       color: var(--mute);
@@ -138,9 +135,21 @@
        ------------------------- */
 
     .visualizacion {
-      margin-top: 30px;
+      margin-top: 24px;
       margin-bottom: 70px;
-      min-height: 100px;
+    }
+
+    .chart-card {
+      background: #FFFFFF;
+      border-radius: 18px;
+      padding: 18px;
+      overflow: hidden;
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.22);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .chart-card > div {
+      width: 100%;
     }
 
     footer {
@@ -191,6 +200,11 @@
         font-size: 40px;
       }
 
+      .chart-card {
+        padding: 10px;
+        border-radius: 14px;
+      }
+
     }
 
   </style>
@@ -221,46 +235,36 @@
 
     <!-- VISUALIZACIÓN 1 -->
 
-    <h2>¿Cómo viene mi entrenamiento?</h2>
+    <h2>Titulo 1</h2>
 
     <div class="visualizacion">
 
-    <div style="min-height:413px" id="datawrapper-vis-RSuhX"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/RSuhX/embed.js" charset="utf-8" data-target="#datawrapper-vis-RSuhX" data-dark="true"></script><noscript><img src="https://datawrapper.dwcdn.net/RSuhX/full.png" alt="Weekly Running Distance (Km) (Line chart)" /></noscript></div>
+      <div class="chart-card">
 
-    </div>
+        <div class="flourish-embed flourish-chart" data-src="visualisation/30167119"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30167119/thumbnail" width="100%" alt="visualization" /></noscript></div>
 
 
     <!-- VISUALIZACIÓN 2 -->
 
-    <h2>Título de la segunda visualización</h2>
+    <h2>Titulo 2</h2>
 
     <div class="visualizacion">
 
-      <!-- ACÁ VA EL SEGUNDO GRÁFICO -->
+      <div class="chart-card">
 
-    </div>
+        <div style="min-height:451px" id="datawrapper-vis-ohsrx"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/ohsrx/embed.js" charset="utf-8" data-target="#datawrapper-vis-ohsrx"></script><noscript><img src="https://datawrapper.dwcdn.net/ohsrx/full.png" alt="Kilómetros acumulados a lo largo del tiempo (Line chart)" /></noscript></div>
 
 
     <!-- VISUALIZACIÓN 3 -->
 
-    <h2>Título de la tercera visualización</h2>
+    <h2>Titulo 3</h2>
 
     <div class="visualizacion">
 
-      <!-- ACÁ VA EL TERCER GRÁFICO -->
+      <div class="chart-card">
 
-    </div>
+        <div style="min-height:439px" id="datawrapper-vis-ggbf5"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/ggbf5/embed.js" charset="utf-8" data-target="#datawrapper-vis-ggbf5"></script><noscript><img src="https://datawrapper.dwcdn.net/ggbf5/full.png" alt="¿Cómo evolucionó mi ritmo con el tiempo? (Line chart)" /></noscript></div>
 
-
-    <!-- VISUALIZACIÓN 4 -->
-
-    <h2>Título de la cuarta visualización</h2>
-
-    <div class="visualizacion">
-
-      <!-- ACÁ VA EL CUARTO GRÁFICO -->
-
-    </div>
 
 
     <footer>
@@ -273,46 +277,177 @@
   <script>
 
     const DATA = [
-      { fecha: "2025-12-31", distancia: 2.82, duracion: 25.9, ritmo: 9.17 },
-      { fecha: "2026-01-02", distancia: 3.58, duracion: 24.5, ritmo: 6.82 },
-      { fecha: "2026-01-04", distancia: 3.62, duracion: 21.9, ritmo: 6.05 },
-      { fecha: "2026-07-26", distancia: 5.02, duracion: 32.2, ritmo: 6.40 },
-      { fecha: "2026-07-28", distancia: 3.05, duracion: 18.5, ritmo: 6.07 },
-      { fecha: "2026-07-30", distancia: 4.32, duracion: 29.3, ritmo: 6.78 },
-      { fecha: "2026-08-01", distancia: 3.51, duracion: 21.8, ritmo: 6.19 },
-      { fecha: "2026-08-03", distancia: 5.01, duracion: 30.9, ritmo: 6.16 },
-      { fecha: "2026-08-05", distancia: 4.52, duracion: 27.8, ritmo: 6.15 },
-      { fecha: "2026-08-07", distancia: 4.01, duracion: 24.3, ritmo: 6.06 },
-      { fecha: "2026-08-08", distancia: 5.13, duracion: 32.6, ritmo: 6.34 },
-      { fecha: "2026-08-09", distancia: 3.26, duracion: 19.4, ritmo: 5.94 },
-      { fecha: "2026-08-14", distancia: 6.51, duracion: 41.4, ritmo: 6.36 },
-      { fecha: "2026-08-16", distancia: 7.51, duracion: 47.6, ritmo: 6.33 }
+
+      {
+        fecha: "2025-12-31",
+        distancia: 2.82,
+        duracion: 26.17,
+        ritmo: 9.17
+      },
+
+      {
+        fecha: "2026-01-02",
+        distancia: 3.59,
+        duracion: 34.97,
+        ritmo: 6.83
+      },
+
+      {
+        fecha: "2026-01-04",
+        distancia: 3.62,
+        duracion: 28.80,
+        ritmo: 6.04
+      },
+
+      {
+        fecha: "2026-07-26",
+        distancia: 5.02,
+        duracion: 33.13,
+        ritmo: 6.40
+      },
+
+      {
+        fecha: "2026-07-28",
+        distancia: 3.05,
+        duracion: 18.50,
+        ritmo: 6.07
+      },
+
+      {
+        fecha: "2026-07-30",
+        distancia: 4.32,
+        duracion: 29.65,
+        ritmo: 6.77
+      },
+
+      {
+        fecha: "2026-08-01",
+        distancia: 3.51,
+        duracion: 21.83,
+        ritmo: 6.19
+      },
+
+      {
+        fecha: "2026-08-03",
+        distancia: 5.01,
+        duracion: 30.93,
+        ritmo: 6.16
+      },
+
+      {
+        fecha: "2026-08-05",
+        distancia: 4.52,
+        duracion: 27.88,
+        ritmo: 6.15
+      },
+
+      {
+        fecha: "2026-08-07",
+        distancia: 4.02,
+        duracion: 24.38,
+        ritmo: 6.06
+      },
+
+      {
+        fecha: "2026-08-08",
+        distancia: 5.14,
+        duracion: 34.78,
+        ritmo: 6.34
+      },
+
+      {
+        fecha: "2026-08-09",
+        distancia: 3.27,
+        duracion: 21.48,
+        ritmo: 5.95
+      },
+
+      {
+        fecha: "2026-08-14",
+        distancia: 6.52,
+        duracion: 41.50,
+        ritmo: 6.36
+      },
+
+      {
+        fecha: "2026-08-16",
+        distancia: 7.52,
+        duracion: 47.68,
+        ritmo: 6.34
+      },
+
+      {
+        fecha: "2026-08-20",
+        distancia: 8.68,
+        duracion: 62.63,
+        ritmo: 6.54
+      },
+
+      {
+        fecha: "2026-08-22",
+        distancia: 8.01,
+        duracion: 49.47,
+        ritmo: 6.17
+      },
+
+      {
+        fecha: "2026-08-28",
+        distancia: 2.58,
+        duracion: 22.32,
+        ritmo: 6.57
+      },
+
+      {
+        fecha: "2026-08-29",
+        distancia: 7.59,
+        duracion: 43.55,
+        ritmo: 6.21
+      },
+
+      {
+        fecha: "2026-09-02",
+        distancia: 10.02,
+        duracion: 73.95,
+        ritmo: 6.57
+      }
+
     ];
 
 
     function fmtPace(dec) {
 
-      const m = Math.floor(dec);
-      const s = Math.round((dec - m) * 60);
+      const totalSeconds = Math.round(dec * 60);
+
+      const m = Math.floor(totalSeconds / 60);
+
+      const s = totalSeconds % 60;
 
       return `${m}:${String(s).padStart(2, "0")}`;
+
     }
 
 
-    const totalDist = DATA.reduce((a, d) => a + d.distancia, 0);
+    const totalDist =
+      DATA.reduce((a, d) => a + d.distancia, 0);
 
-    const totalDur = DATA.reduce((a, d) => a + d.duracion, 0);
+
+    const totalDur =
+      DATA.reduce((a, d) => a + d.duracion, 0);
 
 
     const first3 = DATA.slice(0, 3);
+
     const last3 = DATA.slice(-3);
 
 
     const avgFirst =
-      first3.reduce((a, d) => a + d.ritmo, 0) / first3.length;
+      first3.reduce((a, d) => a + d.ritmo, 0)
+      / first3.length;
+
 
     const avgLast =
-      last3.reduce((a, d) => a + d.ritmo, 0) / last3.length;
+      last3.reduce((a, d) => a + d.ritmo, 0)
+      / last3.length;
 
 
     const mejora = avgFirst - avgLast;
@@ -340,7 +475,9 @@
 
       {
         label: "Mejora de ritmo",
-        value: (mejora > 0 ? "-" : "+") + fmtPace(Math.abs(mejora)),
+        value:
+          (mejora > 0 ? "-" : "+")
+          + fmtPace(Math.abs(mejora)),
         unit: "min/km",
         delta: "primeras 3 vs. últimas 3"
       }
@@ -348,28 +485,42 @@
     ];
 
 
-    const container = document.getElementById("kpis");
+    const container =
+      document.getElementById("kpis");
 
 
     kpis.forEach(k => {
 
-      const div = document.createElement("div");
+      const div =
+        document.createElement("div");
 
       div.className = "kpi";
 
-      div.innerHTML = `
-        <div class="kpi-label">${k.label}</div>
 
-        <div class="kpi-value">
-          ${k.value}
-          <span class="kpi-unit">${k.unit}</span>
+      div.innerHTML = `
+
+        <div class="kpi-label">
+          ${k.label}
         </div>
 
-        ${k.delta
-          ? `<div class="kpi-delta">${k.delta}</div>`
-          : ""
+        <div class="kpi-value">
+
+          ${k.value}
+
+          <span class="kpi-unit">
+            ${k.unit}
+          </span>
+
+        </div>
+
+        ${
+          k.delta
+            ? `<div class="kpi-delta">${k.delta}</div>`
+            : ""
         }
+
       `;
+
 
       container.appendChild(div);
 

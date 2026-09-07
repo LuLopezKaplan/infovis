@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="500"
+   height="300"
+   version="1.1"
+   id="svg48"
+   sodipodi:docname="Rawgraph TP mio Inkscape.svg"
+   inkscape:version="1.4.4 (dcaf3e7d, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs48">
+    <rect
+       x="23.809986"
+       y="46.993393"
+       width="339.60558"
+       height="28.822614"
+       id="rect50" />
+    <rect
+       x="20.050514"
+       y="16.917621"
+       width="459.90867"
+       height="53.885757"
+       id="rect49" />
+    <rect
+       x="30.70235"
+       y="10.651836"
+       width="239.97959"
+       height="68.923643"
+       id="rect48" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview48"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.595969"
+     inkscape:cx="255.33077"
+     inkscape:cy="153.82504"
+     inkscape:window-width="1440"
+     inkscape:window-height="874"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg48" />
+  <g
+     transform="translate(38.095007,50)"
+     id="viz">
+    <g
+       id="axis">
+      <g
+         transform="translate(0,200)"
+         fill="none"
+         font-size="10px"
+         font-family="sans-serif"
+         text-anchor="middle"
+         id="g10">
+        <path
+           class="domain"
+           stroke="currentColor"
+           d="M 0,6 V 0 h 425 v 6"
+           id="path1" />
+        <g
+           class="tick"
+           opacity="1"
+           id="g1">
+          <line
+             stroke="currentColor"
+             y2="6"
+             id="line1"
+             x1="0"
+             y1="0"
+             x2="0" />
+          <text
+             fill="currentColor"
+             y="9"
+             dy="0.70999998em"
+             id="text1">5.5</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(53.125)"
+           id="g2">
+          <line
+             stroke="currentColor"
+             y2="6"
+             id="line2"
+             x1="0"
+             y1="0"
+             x2="0" />
+          <text
+             fill="currentColor"
+             y="9"
+             dy="0.70999998em"
+             id="text2">6.0</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(106.25)"
+           id="g3">
+          <line
+             stroke="currentColor"
+             y2="6"
+             id="line3"
+             x1="0"
+             y1="0"
+             x2="0" />
+          <text
+             fill="currentColor"
+             y="9"
+             dy="0.70999998em"
+             id="text3">6.5</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(159.375)"
+           id="g4">
+          <line
+             stroke="currentColor"
+             y2="6"
+             id="line4"
+             x1="0"
+             y1="0"
+             x2="0" />
+          <text
+             fill="currentColor"
+             y="9"
+             dy="0.70999998em"
+             id="text4">7.0</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(212.5)"
+           id="g5">
+          <line
+             stroke="currentColor"
+             y2="6"
+             id="line5"
+             x1="0"
+             y1="0"
+             x2="0" />
+          <text
+             fill="currentColor"
+             y="9"
+             dy="0.70999998em"
+             id="text5">7.5</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(265.625)"
+           id="g6">
+          <line
+             stroke="currentColor"
+             y2="6"
+             id="line6"
+             x1="0"
+             y1="0"
+             x2="0" />
+          <text
+             fill="currentColor"
+             y="9"
+             dy="0.70999998em"
+             id="text6">8.0</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(318.75)"
+           id="g7">
+          <line
+             stroke="currentColor"
+             y2="6"
+             id="line7"
+             x1="0"
+             y1="0"
+             x2="0" />
+          <text
+             fill="currentColor"
+             y="9"
+             dy="0.70999998em"
+             id="text7">8.5</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(371.875)"
+           id="g8">
+          <line
+             stroke="currentColor"
+             y2="6"
+             id="line8"
+             x1="0"
+             y1="0"
+             x2="0" />
+          <text
+             fill="currentColor"
+             y="9"
+             dy="0.70999998em"
+             id="text8">9.0</text>
+        </g>
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(425)"
+           id="g9">
+          <line
+             stroke="currentColor"
+             y2="6"
+             id="line9"
+             x1="0"
+             y1="0"
+             x2="0" />
+          <text
+             fill="currentColor"
+             y="9"
+             dy="0.70999998em"
+             id="text9">9.5</text>
+        </g>
+        <text
+           x="188.15329"
+           dy="-5"
+           text-anchor="end"
+           style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#050505;fill-opacity:1"
+           id="text10"
+           y="41.980762">Ritmo promedio decimal (min/km)</text>
+      </g>
+      <g
+         fill="none"
+         font-size="10px"
+         font-family="sans-serif"
+         text-anchor="end"
+         id="g12">
+        <g
+           class="tick"
+           opacity="1"
+           transform="translate(0,100)"
+           id="g11">
+          <text
+             fill="currentColor"
+             x="-3"
+             dy="0.31999999em"
+             id="text11" />
+        </g>
+        <text
+           x="4"
+           text-anchor="start"
+           dominant-baseline="hanging"
+           style="font-weight:bold;font-size:12px;font-family:Arial, sans-serif;fill:#7b7b7b"
+           id="text12" />
+      </g>
+    </g>
+    <g
+       id="visualization">
+      <g
+         id="g48">
+        <g
+           id="circles">
+          <circle
+             id=""
+             cx="389.9375"
+             cy="100"
+             r="3.5621936"
+             style="fill:#f5a623" />
+          <circle
+             id="circle12"
+             cx="162.4164"
+             cy="101.99123"
+             r="5.220305"
+             style="fill:#f5a623" />
+          <circle
+             id="circle13"
+             cx="31.674437"
+             cy="115.95768"
+             r="5.2811069"
+             style="fill:#f5a623" />
+          <circle
+             id="circle14"
+             cx="107.35126"
+             cy="95.261978"
+             r="7.8817158"
+             style="fill:#f5a623" />
+          <circle
+             id="circle15"
+             cx="19.795107"
+             cy="103.29888"
+             r="4.0789151"
+             style="fill:#f5a623" />
+          <circle
+             id="circle16"
+             cx="152.38348"
+             cy="84.858192"
+             r="6.6343484"
+             style="fill:#f5a623" />
+          <circle
+             id="circle17"
+             cx="100.54756"
+             cy="75.463654"
+             r="5.0569124"
+             style="fill:#f5a623" />
+          <circle
+             id="circle18"
+             cx="79.638527"
+             cy="75.250732"
+             r="7.864532"
+             style="fill:#f5a623" />
+          <circle
+             id="circle19"
+             cx="47.112774"
+             cy="129.10211"
+             r="7.0004449"
+             style="fill:#f5a623" />
+          <circle
+             id="circle20"
+             cx="36.929211"
+             cy="97.340279"
+             r="6.0689259"
+             style="fill:#f5a623" />
+          <circle
+             id="circle21"
+             cx="56.369633"
+             cy="107.95309"
+             r="8.0865993"
+             style="fill:#f5a623" />
+          <circle
+             id="circle22"
+             cx="27.198635"
+             cy="81.46167"
+             r="4.5552301"
+             style="fill:#f5a623" />
+          <circle
+             id="circle23"
+             cx="81.895073"
+             cy="101.30431"
+             r="10.289823"
+             style="fill:#f5a623" />
+          <circle
+             id="circle24"
+             cx="103.11548"
+             cy="122.55806"
+             r="11.743127"
+             style="fill:#f5a623" />
+          <circle
+             id="circle25"
+             cx="126.83669"
+             cy="73.528206"
+             r="13.312563"
+             style="fill:#f5a623" />
+          <circle
+             id="circle26"
+             cx="51.356075"
+             cy="75.123367"
+             r="12.419878"
+             style="fill:#f5a623" />
+          <circle
+             id="circle27"
+             cx="91.122505"
+             cy="141.88187"
+             r="3"
+             style="fill:#f5a623" />
+          <circle
+             id="circle28"
+             cx="73.110931"
+             cy="129.24861"
+             r="11.000358"
+             style="fill:#f5a623" />
+          <circle
+             id="circle29"
+             cx="135.05653"
+             cy="108.89819"
+             r="15"
+             style="fill:#f5a623" />
+        </g>
+        <g
+           id="labels">
+          <g
+             id="g29"
+             transform="translate(389.9375,100)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text29" />
+          </g>
+          <g
+             id="g30"
+             transform="translate(162.4164,101.99123)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text30" />
+          </g>
+          <g
+             id="g31"
+             transform="translate(31.674437,115.95768)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text31" />
+          </g>
+          <g
+             id="g32"
+             transform="translate(107.35126,95.261975)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text32" />
+          </g>
+          <g
+             id="g33"
+             transform="translate(19.795107,103.29888)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text33" />
+          </g>
+          <g
+             id="g34"
+             transform="translate(152.38348,84.858191)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text34" />
+          </g>
+          <g
+             id="g35"
+             transform="translate(100.54756,75.463652)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text35" />
+          </g>
+          <g
+             id="g36"
+             transform="translate(79.638526,75.250729)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text36" />
+          </g>
+          <g
+             id="g37"
+             transform="translate(47.112773,129.10211)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text37" />
+          </g>
+          <g
+             id="g38"
+             transform="translate(36.929212,97.340277)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text38" />
+          </g>
+          <g
+             id="g39"
+             transform="translate(56.369634,107.95309)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text39" />
+          </g>
+          <g
+             id="g40"
+             transform="translate(27.198635,81.461668)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text40" />
+          </g>
+          <g
+             id="g41"
+             transform="translate(81.895073,101.30431)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text41" />
+          </g>
+          <g
+             id="g42"
+             transform="translate(103.11548,122.55806)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text42" />
+          </g>
+          <g
+             id="g43"
+             transform="translate(126.83668,73.528204)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text43" />
+          </g>
+          <g
+             id="g44"
+             transform="translate(51.356075,75.123366)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text44" />
+          </g>
+          <g
+             id="g45"
+             transform="translate(91.122507,141.88186)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text45" />
+          </g>
+          <g
+             id="g46"
+             transform="translate(73.110933,129.24862)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text46" />
+          </g>
+          <g
+             id="g47"
+             transform="translate(135.05654,108.89819)">
+            <text
+               x="0"
+               y="0"
+               text-anchor="middle"
+               dominant-baseline="text-before-edge"
+               style="opacity:1"
+               id="text47" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <text
+     xml:space="preserve"
+     id="text48"
+     style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect49);fill:#050505;fill-opacity:1;stroke-width:1.02425"
+     transform="matrix(1.1791096,0,0,1.7320931,-4.8444453,-18.85028)"><tspan
+       x="20.050781"
+       y="27.865933"
+       id="tspan1">¿Cómo se relacionan mi ritmo y la distancia recorrida?
+</tspan><tspan
+       x="20.050781"
+       y="42.865933"
+       id="tspan2">
+</tspan></text>
+  <text
+     xml:space="preserve"
+     id="text49"
+     style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect50);fill:#666666;fill-opacity:1;stroke-width:1.02425"
+     transform="translate(-1.2531571,-3.7594714)"><tspan
+       x="23.810547"
+       y="57.942104"
+       id="tspan3">Cada círculo representa una carrera. Su tamaño indica </tspan><tspan
+       x="23.810547"
+       y="72.942104"
+       id="tspan4">la distancia recorrida.</tspan></text>
+</svg>

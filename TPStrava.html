@@ -154,32 +154,32 @@
 
 
     /* -------------------------
-       CONCLUSIONES DE GRÁFICOS
+       ANÁLISIS DE CADA GRÁFICO
        ------------------------- */
 
     .conclusion-card {
       margin-top: 18px;
-      padding: 18px 22px;
+      padding: 20px 24px;
       background: linear-gradient(
         135deg,
         rgba(252, 76, 2, 0.14),
         rgba(252, 76, 2, 0.05)
       );
-      border: 1px solid rgba(252, 76, 2, 0.28);
+      border: 1px solid rgba(252, 76, 2, 0.30);
       border-left: 4px solid var(--orange);
       border-radius: 12px;
       color: #EAEAEA;
       font-size: 15px;
-      line-height: 1.65;
+      line-height: 1.7;
     }
 
     .conclusion-label {
       display: inline-block;
-      margin-bottom: 6px;
+      margin-bottom: 7px;
       font-family: 'Space Grotesk', sans-serif;
       font-size: 13px;
       font-weight: 700;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.06em;
       text-transform: uppercase;
       color: var(--orange);
     }
@@ -215,6 +215,7 @@
 
     .conclusion-final h2 {
       margin: 0 0 18px 0;
+      font-family: 'Space Grotesk', sans-serif;
       font-size: 30px;
       color: #FFFFFF;
     }
@@ -286,7 +287,7 @@
       }
 
       .conclusion-card {
-        padding: 16px 18px;
+        padding: 17px 18px;
         font-size: 14px;
       }
 
@@ -323,12 +324,18 @@
     </p>
 
 
-    <!-- INDICADORES PRINCIPALES -->
+    <!-- =========================
+         INDICADORES PRINCIPALES
+         ========================= -->
 
     <div class="kpis" id="kpis"></div>
 
 
-    <!-- VISUALIZACIÓN 1: CALENDARIO -->
+
+    <!-- =========================
+         VISUALIZACIÓN 1
+         CALENDARIO FLOURISH
+         ========================= -->
 
     <div class="visualizacion">
 
@@ -340,17 +347,10 @@
 
           <script src="https://public.flourish.studio/resources/embed.js"></script>
 
-          <noscript>
-            <img
-              src="https://public.flourish.studio/visualisation/30167119/thumbnail"
-              width="100%"
-              alt="Calendario de actividades"
-            />
-          </noscript>
-
         </div>
 
       </div>
+
 
       <div class="conclusion-card">
 
@@ -371,7 +371,11 @@
     </div>
 
 
-    <!-- VISUALIZACIÓN 2: KILÓMETROS ACUMULADOS -->
+
+    <!-- =========================
+         VISUALIZACIÓN 2
+         KILÓMETROS ACUMULADOS
+         ========================= -->
 
     <div class="visualizacion">
 
@@ -389,16 +393,10 @@
             data-target="#datawrapper-vis-ohsrx">
           </script>
 
-          <noscript>
-            <img
-              src="https://datawrapper.dwcdn.net/ohsrx/full.png"
-              alt="Kilómetros acumulados a lo largo del tiempo"
-            />
-          </noscript>
-
         </div>
 
       </div>
+
 
       <div class="conclusion-card">
 
@@ -407,11 +405,11 @@
         </span>
 
         <p>
-          El crecimiento de los kilómetros acumulados se acelera a medida que
-          las salidas se hacen más frecuentes y las distancias aumentan.
+          El crecimiento de los kilómetros acumulados se acelera a medida
+          que las salidas se hacen más frecuentes y las distancias aumentan.
           La pendiente se vuelve especialmente marcada durante agosto,
-          reflejando el período de mayor continuidad del entrenamiento
-          y el aumento progresivo del volumen recorrido.
+          reflejando el período de mayor continuidad del entrenamiento y
+          el aumento progresivo del volumen recorrido.
         </p>
 
       </div>
@@ -419,7 +417,11 @@
     </div>
 
 
-    <!-- VISUALIZACIÓN 3: EVOLUCIÓN DEL RITMO -->
+
+    <!-- =========================
+         VISUALIZACIÓN 3
+         EVOLUCIÓN DEL RITMO
+         ========================= -->
 
     <div class="visualizacion">
 
@@ -437,16 +439,10 @@
             data-target="#datawrapper-vis-ggbf5">
           </script>
 
-          <noscript>
-            <img
-              src="https://datawrapper.dwcdn.net/ggbf5/full.png"
-              alt="¿Cómo evolucionó mi ritmo con el tiempo?"
-            />
-          </noscript>
-
         </div>
 
       </div>
+
 
       <div class="conclusion-card">
 
@@ -467,7 +463,12 @@
     </div>
 
 
-    <!-- VISUALIZACIÓN 4: RITMO Y DISTANCIA -->
+
+    <!-- =========================
+         VISUALIZACIÓN 4
+         RITMO Y DISTANCIA
+         SVG COMO OBJETO
+         ========================= -->
 
     <div class="visualizacion">
 
@@ -485,6 +486,7 @@
 
       </div>
 
+
       <div class="conclusion-card">
 
         <span class="conclusion-label">
@@ -495,9 +497,8 @@
           La mayoría de las carreras se concentra en ritmos similares,
           aunque las distancias recorridas son diferentes. Esto muestra
           que pude aumentar progresivamente la distancia sin que el ritmo
-          se deteriorara de manera proporcional. En otras palabras,
-          las carreras más largas no necesariamente implicaron correr
-          mucho más lento.
+          se deteriorara de manera proporcional. Las carreras más largas,
+          por lo tanto, no necesariamente implicaron correr mucho más lento.
         </p>
 
       </div>
@@ -505,7 +506,10 @@
     </div>
 
 
-    <!-- CONCLUSIÓN FINAL -->
+
+    <!-- =========================
+         CONCLUSIÓN FINAL
+         ========================= -->
 
     <section class="conclusion-final">
 
@@ -520,21 +524,22 @@
       <p>
         Al observar las cuatro visualizaciones en conjunto aparece una
         evolución clara. Las primeras carreras fueron aisladas, pero con
-        el tiempo aumentaron tanto la frecuencia como las distancias recorridas.
-        Ese crecimiento del volumen no estuvo acompañado por una pérdida
-        equivalente de velocidad: el ritmo mejoró respecto de las primeras
-        salidas y luego se mantuvo relativamente estable.
+        el tiempo aumentaron tanto la frecuencia como las distancias
+        recorridas. Ese crecimiento del volumen no estuvo acompañado por
+        una pérdida equivalente de velocidad: el ritmo mejoró respecto de
+        las primeras salidas y luego se mantuvo relativamente estable.
       </p>
 
       <p>
         Más que una mejora puntual en una carrera, los datos muestran un
         proceso de adaptación y constancia. A medida que correr se convirtió
-        en una actividad más frecuente, pude recorrer mayores distancias
-        y sostener un rendimiento más regular. En conjunto, los datos
-        reflejan el paso de salidas aisladas a una verdadera rutina de running.
+        en una actividad más frecuente, pude recorrer mayores distancias y
+        sostener un rendimiento más regular. En conjunto, los datos reflejan
+        el paso de salidas aisladas a una verdadera rutina de running.
       </p>
 
     </section>
+
 
 
     <footer>
@@ -542,6 +547,7 @@
     </footer>
 
   </main>
+
 
 
   <script>

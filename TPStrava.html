@@ -154,7 +154,7 @@
 
 
     /* -------------------------
-       CONCLUSIONES
+       CONCLUSIONES DE GRÁFICOS
        ------------------------- */
 
     .conclusion-card {
@@ -179,13 +179,56 @@
       font-family: 'Space Grotesk', sans-serif;
       font-size: 13px;
       font-weight: 700;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.05em;
       text-transform: uppercase;
       color: var(--orange);
     }
 
     .conclusion-card p {
       margin: 0;
+    }
+
+
+    /* -------------------------
+       CONCLUSIÓN FINAL
+       ------------------------- */
+
+    .conclusion-final {
+      margin-top: 95px;
+      padding: 38px 40px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-top: 4px solid var(--orange);
+      border-radius: 18px;
+    }
+
+    .conclusion-final-label {
+      display: inline-block;
+      margin-bottom: 8px;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--orange);
+    }
+
+    .conclusion-final h2 {
+      margin: 0 0 18px 0;
+      font-size: 30px;
+      color: #FFFFFF;
+    }
+
+    .conclusion-final p {
+      margin: 0 0 14px 0;
+      max-width: 850px;
+      color: #D6D6D6;
+      font-size: 16px;
+      line-height: 1.75;
+    }
+
+    .conclusion-final p:last-child {
+      margin-bottom: 0;
     }
 
 
@@ -247,9 +290,19 @@
         font-size: 14px;
       }
 
+      .conclusion-final {
+        padding: 26px 22px;
+        margin-top: 70px;
+      }
+
+      .conclusion-final h2 {
+        font-size: 24px;
+      }
+
     }
 
   </style>
+
 </head>
 
 
@@ -275,20 +328,23 @@
     <div class="kpis" id="kpis"></div>
 
 
-    <!-- VISUALIZACIÓN 1 -->
+    <!-- VISUALIZACIÓN 1: CALENDARIO -->
 
     <div class="visualizacion">
 
       <div class="chart-card">
 
-        <div class="flourish-embed flourish-chart" data-src="visualisation/30167119">
+        <div
+          class="flourish-embed flourish-chart"
+          data-src="visualisation/30167119">
+
           <script src="https://public.flourish.studio/resources/embed.js"></script>
 
           <noscript>
             <img
               src="https://public.flourish.studio/visualisation/30167119/thumbnail"
               width="100%"
-              alt="visualization"
+              alt="Calendario de actividades"
             />
           </noscript>
 
@@ -299,13 +355,15 @@
       <div class="conclusion-card">
 
         <span class="conclusion-label">
-          Conclusión
+          Lo que muestran los datos
         </span>
 
         <p>
-          Las carreras muestran una mejora general del ritmo, incluso a medida
-          que aumentan las distancias. Esto sugiere que, con el entrenamiento,
-          pude sostener ritmos más rápidos en recorridos cada vez más largos.
+          Mis primeras salidas fueron aisladas y estuvieron separadas por varios
+          meses. A partir de fines de julio, la actividad se vuelve mucho más
+          frecuente y se concentra especialmente durante agosto. El calendario
+          permite ver con claridad el paso de carreras ocasionales a una rutina
+          de entrenamiento más constante.
         </p>
 
       </div>
@@ -313,7 +371,7 @@
     </div>
 
 
-    <!-- VISUALIZACIÓN 2 -->
+    <!-- VISUALIZACIÓN 2: KILÓMETROS ACUMULADOS -->
 
     <div class="visualizacion">
 
@@ -334,7 +392,7 @@
           <noscript>
             <img
               src="https://datawrapper.dwcdn.net/ohsrx/full.png"
-              alt="Kilómetros acumulados a lo largo del tiempo (Line chart)"
+              alt="Kilómetros acumulados a lo largo del tiempo"
             />
           </noscript>
 
@@ -345,13 +403,15 @@
       <div class="conclusion-card">
 
         <span class="conclusion-label">
-          Conclusión
+          Lo que muestran los datos
         </span>
 
         <p>
-          La distancia acumulada crece especialmente durante julio y agosto,
-          período en el que aumentó la frecuencia de mis salidas. Esto muestra
-          cómo la constancia tuvo un impacto directo en el volumen total recorrido.
+          El crecimiento de los kilómetros acumulados se acelera a medida que
+          las salidas se hacen más frecuentes y las distancias aumentan.
+          La pendiente se vuelve especialmente marcada durante agosto,
+          reflejando el período de mayor continuidad del entrenamiento
+          y el aumento progresivo del volumen recorrido.
         </p>
 
       </div>
@@ -359,7 +419,7 @@
     </div>
 
 
-    <!-- VISUALIZACIÓN 3 -->
+    <!-- VISUALIZACIÓN 3: EVOLUCIÓN DEL RITMO -->
 
     <div class="visualizacion">
 
@@ -380,7 +440,7 @@
           <noscript>
             <img
               src="https://datawrapper.dwcdn.net/ggbf5/full.png"
-              alt="¿Cómo evolucionó mi ritmo con el tiempo? (Line chart)"
+              alt="¿Cómo evolucionó mi ritmo con el tiempo?"
             />
           </noscript>
 
@@ -391,13 +451,15 @@
       <div class="conclusion-card">
 
         <span class="conclusion-label">
-          Conclusión
+          Lo que muestran los datos
         </span>
 
         <p>
-          Después de las primeras carreras, el ritmo mejora notablemente y luego
-          se vuelve más estable, manteniéndose en general cerca de los
-          6–6:30 min/km. La evolución muestra una adaptación progresiva al entrenamiento.
+          El cambio más fuerte se observa después de la primera carrera,
+          cuando el ritmo mejora considerablemente. A partir de allí se
+          mantiene mucho más estable, generalmente alrededor de los
+          6 a 6:30 min/km. Esto indica que, además de correr con mayor
+          frecuencia, fui logrando sostener un rendimiento más regular.
         </p>
 
       </div>
@@ -405,7 +467,7 @@
     </div>
 
 
-    <!-- VISUALIZACIÓN 4 -->
+    <!-- VISUALIZACIÓN 4: RITMO Y DISTANCIA -->
 
     <div class="visualizacion">
 
@@ -426,19 +488,53 @@
       <div class="conclusion-card">
 
         <span class="conclusion-label">
-          Conclusión
+          Lo que muestran los datos
         </span>
 
         <p>
-          La actividad se concentra principalmente entre fines de julio y agosto,
-          con salidas cada pocos días. El calendario permite ver que el progreso
-          no estuvo dado por una carrera aislada, sino por una etapa de
-          entrenamiento mucho más constante.
+          La mayoría de las carreras se concentra en ritmos similares,
+          aunque las distancias recorridas son diferentes. Esto muestra
+          que pude aumentar progresivamente la distancia sin que el ritmo
+          se deteriorara de manera proporcional. En otras palabras,
+          las carreras más largas no necesariamente implicaron correr
+          mucho más lento.
         </p>
 
       </div>
 
     </div>
+
+
+    <!-- CONCLUSIÓN FINAL -->
+
+    <section class="conclusion-final">
+
+      <span class="conclusion-final-label">
+        Conclusión final
+      </span>
+
+      <h2>
+        De correr ocasionalmente a construir una rutina
+      </h2>
+
+      <p>
+        Al observar las cuatro visualizaciones en conjunto aparece una
+        evolución clara. Las primeras carreras fueron aisladas, pero con
+        el tiempo aumentaron tanto la frecuencia como las distancias recorridas.
+        Ese crecimiento del volumen no estuvo acompañado por una pérdida
+        equivalente de velocidad: el ritmo mejoró respecto de las primeras
+        salidas y luego se mantuvo relativamente estable.
+      </p>
+
+      <p>
+        Más que una mejora puntual en una carrera, los datos muestran un
+        proceso de adaptación y constancia. A medida que correr se convirtió
+        en una actividad más frecuente, pude recorrer mayores distancias
+        y sostener un rendimiento más regular. En conjunto, los datos
+        reflejan el paso de salidas aisladas a una verdadera rutina de running.
+      </p>
+
+    </section>
 
 
     <footer>
